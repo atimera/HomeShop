@@ -1,4 +1,4 @@
-package com.opc.amdiatou.homeshop;
+package com.opc.amdiatou;
 
 import static org.junit.jupiter.api.Assertions.*;
 

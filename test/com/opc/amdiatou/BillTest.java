@@ -1,5 +1,6 @@
-package com.opc.amdiatou.homeshop;
+package com.opc.amdiatou;
 
+import com.opc.amdiatou.homeshop.*;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
