@@ -29,4 +29,13 @@ public class Bill {
     public Map<Product, Integer> getProduct() {
         return product;
     }
+
+
+    public void generate(Writer writerMock){
+
+    }
+
+    public double getTotal(){
+        return 0.0;
+    }
 }
