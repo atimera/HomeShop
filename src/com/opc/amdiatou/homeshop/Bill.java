@@ -1,13 +1,16 @@
 package com.opc.amdiatou.homeshop;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Bill {
     private Customer customer;
-    private Map<Product, Integer> product;
+    private Map<Product, Integer> product = new HashMap<Product, Integer>();
+    private Delivery delivery;
 
-    public Bill(Customer customer){
+    public Bill(Customer customer, Delivery delivery) {
         this.customer = customer;
+        this.delivery = delivery;
     }
 
     /**
