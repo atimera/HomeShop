@@ -8,6 +8,11 @@ public class RelayDelivery implements Delivery {
     }
 
     @Override
+    public String getInfo() {
+        return "Livraison au point relais " + getPrice() +"€";
+    }
+
+    @Override
     public double getPrice() {
         if(this.relayNumber >= 1 && this.relayNumber <= 22)
             return 0;

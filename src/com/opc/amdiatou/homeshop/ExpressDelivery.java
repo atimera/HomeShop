@@ -7,6 +7,11 @@ public class ExpressDelivery implements Delivery {
         this.city = city;
     }
 
+    @Override
+    public String getInfo() {
+        return "Livraison express à domicile " + getPrice() +"€";
+    }
+
     public String getCity() {
         return city;
     }

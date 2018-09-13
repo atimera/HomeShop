@@ -15,5 +15,5 @@ public interface Writer {
     /**
      * stop writing process
      */
-    public void stopWriting();
+    public void stop();
 }
